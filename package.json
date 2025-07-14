@@ -1,4 +1,11 @@
 {
+  "name": "chess-analytics",
+  "version": "1.0.0",
+  "main": "src/chessServer.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "node src/chessServer.js"
+  },
   "dependencies": {
     "fastify": "^5.4.0",
     "fastify-swagger": "^5.1.1",
